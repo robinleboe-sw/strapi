@@ -151,7 +151,7 @@ pm2 stop strapi-develop
 psql -c "ALTER USER strapi with password 'your-new-password';"
 ```
 
-- Update the `/srv/strapi/strapi/config/environments/development/database.json` file with the new password.
+- Update the `/srv/strapi/strapi-development/config/database.js` file with the new password.
 
 ```json
 ...
